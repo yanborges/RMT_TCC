@@ -7,7 +7,7 @@ Created on Sat Feb 10 09:05:54 2018
 andro_ = {'xgb1_booster':'gbtree','xgb1_eta':0.028,'xgb1_max_depth': 3,'xgb1_colsample_bytree': 0.7,'xgb1_subsample': 0.7,'xgb1_min_child_weight': 4,'xgb1_boost_round':520,
           'xgb2_booster':'gbtree','xgb2_eta':0.031,'xgb2_max_depth': 3,'xgb2_colsample_bytree': 0.7,'xgb2_subsample': 0.7,'xgb2_min_child_weight': 6,'xgb2_boost_round':520,
           'adjacency_num':20,'num_cluster':3,'cluster_times':20,'target_lambda':-5,'targets_num':6,'is_Agg_clustering':True,'Agg_clustering_num':2,'paper_kFold':10,'inner_kFold':5, 
-          'adjacency_cart_depth':5,'kfold_random':False,'kfold_random_num':-1,'sample_random':True,'sample_random_num':2,'header':41,'tift':True}
+          'adjacency_cart_depth':5,'kfold_random':False,'kfold_random_num':None,'sample_random':True,'sample_random_num':2,'header':41,'tift':True}
 
 atp1d_ = {'xgb1_booster':'gbtree','xgb1_eta':0.03,'xgb1_max_depth': 3,'xgb1_colsample_bytree': 0.7,'xgb1_subsample': 0.7,'xgb1_min_child_weight': 5,'xgb1_boost_round':300,
           'xgb2_booster':'gbtree','xgb2_eta':0.03,'xgb2_max_depth': 3,'xgb2_colsample_bytree': 0.7,'xgb2_subsample': 0.7,'xgb2_min_child_weight': 8,'xgb2_boost_round':300,
@@ -17,22 +17,22 @@ atp1d_ = {'xgb1_booster':'gbtree','xgb1_eta':0.03,'xgb1_max_depth': 3,'xgb1_cols
 atp7d_ = {'xgb1_booster':'gbtree','xgb1_eta':0.03,'xgb1_max_depth': 3,'xgb1_colsample_bytree': 0.7,'xgb1_subsample': 0.7,'xgb1_min_child_weight': 3,'xgb1_boost_round':1000,
           'xgb2_booster':'gbtree','xgb2_eta':0.02,'xgb2_max_depth': 3,'xgb2_colsample_bytree': 0.7,'xgb2_subsample': 0.7,'xgb2_min_child_weight': 3,'xgb2_boost_round':1000,
           'adjacency_num':20,'num_cluster':5,'cluster_times':20,'target_lambda':-5,'targets_num':6,'is_Agg_clustering':True,'Agg_clustering_num':4,'paper_kFold':10,'inner_kFold':10,
-          'adjacency_cart_depth':3,'kfold_random':False,'kfold_random_num':-1,'sample_random':True,'sample_random_num':2,'header':422,'tift':True}
+          'adjacency_cart_depth':3,'kfold_random':False,'kfold_random_num':None,'sample_random':True,'sample_random_num':2,'header':422,'tift':True}
 
 edm_ = {'xgb1_booster':'gbtree','xgb1_eta':0.02,'xgb1_max_depth': 4,'xgb1_colsample_bytree': 0.7,'xgb1_subsample': 0.7,'xgb1_min_child_weight': 1,'xgb1_boost_round':600,
           'xgb2_booster':'gbtree','xgb2_eta':0.02,'xgb2_max_depth': 4,'xgb2_colsample_bytree': 0.7,'xgb2_subsample': 0.7,'xgb2_min_child_weight': 3,'xgb2_boost_round':300,
           'adjacency_num':20,'num_cluster':4,'cluster_times':20,'target_lambda':-5,'targets_num':2,'is_Agg_clustering':False,'Agg_clustering_num':-1,'paper_kFold':10,'inner_kFold':3,
-          'adjacency_cart_depth':3,'kfold_random':False,'kfold_random_num':-1,'sample_random':True,'sample_random_num':12,'header':26,'tift':True}
+          'adjacency_cart_depth':3,'kfold_random':False,'kfold_random_num':None,'sample_random':True,'sample_random_num':12,'header':26,'tift':True}
 
 enb_ = {'xgb1_booster':'gbtree','xgb1_eta':0.02,'xgb1_max_depth': 7,'xgb1_colsample_bytree': 0.7,'xgb1_subsample': 0.6,'xgb1_min_child_weight': 7.5,'xgb1_boost_round':1000,
           'xgb2_booster':'gbtree','xgb2_eta':0.024,'xgb2_max_depth': 6,'xgb2_colsample_bytree': 0.7,'xgb2_subsample': 0.7,'xgb2_min_child_weight': 6,'xgb2_boost_round':1000,'xgb2_reg_lambda':10,
           'adjacency_num':20,'num_cluster':4,'cluster_times':20,'target_lambda':-5,'targets_num':2,'is_Agg_clustering':False,'Agg_clustering_num':-1,'paper_kFold':10,'inner_kFold':10,
-          'adjacency_cart_depth':3,'kfold_random':False,'kfold_random_num':-1,'sample_random':True,'sample_random_num':0,'header':15,'tift':True}
+          'adjacency_cart_depth':3,'kfold_random':False,'kfold_random_num':None,'sample_random':True,'sample_random_num':0,'header':15,'tift':True}
 
 jura_ = {'xgb1_booster':'gbtree','xgb1_eta':0.02,'xgb1_max_depth': 3,'xgb1_colsample_bytree': 0.7,'xgb1_subsample': 0.6,'xgb1_min_child_weight': 10.5,'xgb1_boost_round':300,
           'xgb2_booster':'gbtree','xgb2_eta':0.02,'xgb2_max_depth': 3,'xgb2_colsample_bytree': 0.7,'xgb2_subsample': 0.6,'xgb2_min_child_weight': 5,'xgb2_boost_round':500,'xgb2_reg_lambda':40,
           'adjacency_num':20,'num_cluster':5,'cluster_times':20,'target_lambda':-5,'targets_num':3,'is_Agg_clustering':False,'Agg_clustering_num':-1,'paper_kFold':10,'inner_kFold':5,
-          'adjacency_cart_depth':3,'kfold_random':False,'kfold_random_num':-1,'sample_random':True,'sample_random_num':0,'header':23,'tift':True}
+          'adjacency_cart_depth':3,'kfold_random':False,'kfold_random_num':None,'sample_random':True,'sample_random_num':0,'header':23,'tift':True}
 
 oes10_ = {'xgb1_booster':'gbtree','xgb1_eta':0.02,'xgb1_max_depth': 3,'xgb1_colsample_bytree': 0.7,'xgb1_subsample': 0.7,'xgb1_min_child_weight': 2,'xgb1_boost_round':300,
           'xgb2_booster':'gbtree','xgb2_eta':0.02,'xgb2_max_depth': 3,'xgb2_colsample_bytree': 0.7,'xgb2_subsample': 0.7,'xgb2_min_child_weight': 2,'xgb2_boost_round':250,
@@ -91,12 +91,6 @@ sf2_ = {'svr1_kernel':'rbf','svr1_gamma':0.006,'svr1_C':14,'svr1_epsilon':0.005,
           'adjacency_num':20,'num_cluster':2,'cluster_times':20,'target_lambda':-5,'targets_num':3,'is_Agg_clustering':False,'Agg_clustering_num':-1,'paper_kFold':10,'inner_kFold':10,
           'adjacency_cart_depth':3,'kfold_random':True,'kfold_random_num':10,'sample_random':False,'sample_random_num':-1,'header':18,'tift':True}
 
-
-
-
-
-
-
 slump_ = {'svr1_kernel':'rbf','svr1_gamma':0.05,'svr1_C':70,'svr1_epsilon':0.01,'svr1_shrinking':False,'svr1_verbose':False,'svr1_max_iter':-1,
         'svr2_kernel':'rbf','svr2_gamma':0.03,'svr2_C':40,'svr2_epsilon':0.01,'svr2_shrinking':False,'svr2_verbose':False,'svr2_max_iter':-1,
           'adjacency_num':20,'num_cluster':2,'cluster_times':20,'target_lambda':-5,'targets_num':3,'is_Agg_clustering':False,'Agg_clustering_num':-1,'paper_kFold':10,'inner_kFold':5,
@@ -106,13 +100,13 @@ slump_ = {'svr1_kernel':'rbf','svr1_gamma':0.05,'svr1_C':70,'svr1_epsilon':0.01,
 wq_ = {'xgb1_booster':'gbtree','xgb1_eta':0.02,'xgb1_max_depth': 15,'xgb1_colsample_bytree': 0.7,'xgb1_subsample': 0.6,'xgb1_min_child_weight': 15.5,'xgb1_boost_round':400,
           'xgb2_booster':'gbtree','xgb2_eta':0.03,'xgb2_max_depth': 3,'xgb2_colsample_bytree': 0.7,'xgb2_subsample': 0.6,'xgb2_min_child_weight': 12,'xgb2_boost_round':140,'xgb2_reg_lambda':14,
           'adjacency_num':20,'num_cluster':3,'cluster_times':20,'target_lambda':-5,'targets_num':14,'is_Agg_clustering':False,'Agg_clustering_num':-1,'paper_kFold':10,'inner_kFold':5,
-          'adjacency_cart_depth':3,'kfold_random':False,'kfold_random_num':-1,'sample_random':True,'sample_random_num':37,'header':58,'tift':True}
+          'adjacency_cart_depth':3,'kfold_random':False,'kfold_random_num':None,'sample_random':True,'sample_random_num':37,'header':58,'tift':True}
 
 
 scm1d_ = {'xgb1_booster':'gbtree','xgb1_eta':0.03,'xgb1_max_depth': 14,'xgb1_colsample_bytree': 0.7,'xgb1_subsample': 0.7,'xgb1_min_child_weight': 1,'xgb1_boost_round':500,
           'xgb2_booster':'gbtree','xgb2_eta':0.03,'xgb2_max_depth': 14,'xgb2_colsample_bytree': 0.7,'xgb2_subsample': 0.7,'xgb2_min_child_weight': 1,'xgb2_boost_round':800,
           'adjacency_num':10,'num_cluster':5,'cluster_times':10,'target_lambda':-5,'targets_num':16,'is_Agg_clustering':True,'Agg_clustering_num':2,'paper_kFold':2,'inner_kFold':3,
-          'adjacency_cart_depth':3,'kfold_random':False,'kfold_random_num':-1,'sample_random':True,'sample_random_num':2,'is_feature_selection':True,'feature_selection':280,'header':301,'tift':False}
+          'adjacency_cart_depth':3,'kfold_random':False,'kfold_random_num':None,'sample_random':True,'sample_random_num':2,'is_feature_selection':True,'feature_selection':280,'header':301,'tift':False}
 
 
 
@@ -120,7 +114,7 @@ scm1d_ = {'xgb1_booster':'gbtree','xgb1_eta':0.03,'xgb1_max_depth': 14,'xgb1_col
 scm20d_ = {'xgb1_booster':'gbtree','xgb1_eta':0.03,'xgb1_max_depth': 5,'xgb1_colsample_bytree': 0.7,'xgb1_subsample': 0.7,'xgb1_min_child_weight': 2,'xgb1_boost_round':500,
           'xgb2_booster':'gbtree','xgb2_eta':0.03,'xgb2_max_depth': 5,'xgb2_colsample_bytree': 0.7,'xgb2_subsample': 0.7,'xgb2_min_child_weight': 2,'xgb2_boost_round':500,
           'adjacency_num':10,'num_cluster':5,'cluster_times':10,'target_lambda':-5,'targets_num':16,'is_Agg_clustering':True,'Agg_clustering_num':2,'paper_kFold':2,'inner_kFold':3,
-          'adjacency_cart_depth':3,'kfold_random':False,'kfold_random_num':-1,'sample_random':True,'sample_random_num':2,'is_feature_selection':True,'feature_selection':62,'header':301,'tift':False}
+          'adjacency_cart_depth':3,'kfold_random':False,'kfold_random_num':None,'sample_random':True,'sample_random_num':2,'is_feature_selection':True,'feature_selection':62,'header':301,'tift':False}
 
 
 

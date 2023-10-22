@@ -1,7 +1,34 @@
 {
     "cSpell.language": "en,pt-BR",
     "cSpell.words": [
+        "andro",
+        "arff",
+        "bytree",
+        "colsample",
+        "convolutional",
+        "fillna",
+        "gblinear",
+        "gbtree",
+        "iloc",
+        "keras",
         "kfold",
-        "RRMSE"
+        "loadarff",
+        "matplotlib",
+        "multioutput",
+        "nanmean",
+        "osales",
+        "oscales",
+        "pyplot",
+        "RRMSE",
+        "scipy",
+        "scpf",
+        "sklearn",
+        "tensorflow",
+        "tift",
+        "xgboost",
+        "dtree"
+    ],
+    "cSpell.ignoreWords": [
+        "applymap"
     ]
 }
