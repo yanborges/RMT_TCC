@@ -6,7 +6,7 @@ Created on Sat Feb 10 09:05:54 2018
 
 andro_ = {'xgb1_booster':'gbtree','xgb1_eta':0.028,'xgb1_max_depth': 3,'xgb1_colsample_bytree': 0.7,'xgb1_subsample': 0.7,'xgb1_min_child_weight': 4,'xgb1_boost_round':520,
           'xgb2_booster':'gbtree','xgb2_eta':0.031,'xgb2_max_depth': 3,'xgb2_colsample_bytree': 0.7,'xgb2_subsample': 0.7,'xgb2_min_child_weight': 6,'xgb2_boost_round':520,
-          'adjacency_num':20,'num_cluster':3,'cluster_times':20,'target_lambda':-5,'targets_num':6,'is_Agg_clustering':True,'Agg_clustering_num':2,'paper_kFold':10,'inner_kFold':5, 
+          'adjacency_num':20,'num_cluster':3,'num_cluster_targets':4,'cluster_times':20,'target_lambda':-5,'targets_num':6,'is_Agg_clustering':True,'Agg_clustering_num':2,'paper_kFold':10,'inner_kFold':5, 
           'adjacency_cart_depth':5,'kfold_random':False,'kfold_random_num':None,'sample_random':True,'sample_random_num':2,'header':41,'tift':True}
 
 atp1d_ = {'xgb1_booster':'gbtree','xgb1_eta':0.03,'xgb1_max_depth': 3,'xgb1_colsample_bytree': 0.7,'xgb1_subsample': 0.7,'xgb1_min_child_weight': 5,'xgb1_boost_round':300,
