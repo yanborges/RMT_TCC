@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sat Feb 10 09:05:54 2018
-@author: CCL
-"""
+
 
 andro_ = {
           'adjacency_num':20,'num_cluster':3,'num_cluster_targets':4,'cluster_times':20,'target_lambda':-5,'targets_num':6,'is_Agg_clustering':True,'Agg_clustering_num':2,'paper_kFold':10,'inner_kFold':5, 
