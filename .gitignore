@@ -1,4 +1,7 @@
 .vscode/
 junk.ipynb
 __pycache__/
-
+config_copy.py
+RMT_TCC_copy.py
+img/
+TCC.bib

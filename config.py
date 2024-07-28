@@ -30,7 +30,6 @@ oes10_ = {
           'adjacency_cart_depth':3,'kfold_random':True,'kfold_random_num':8,'sample_random':False,'sample_random_num':-1,'header':319}
 
 
-
 oes97_ = {
           'adjacency_num':20,'num_cluster':3,'num_cluster_targets':3,'cluster_times':20,'target_lambda':-5,'targets_num':16,'is_Agg_clustering':False,'Agg_clustering_num':-1,'paper_kFold':10,'inner_kFold':5,
           'adjacency_cart_depth':3,'kfold_random':True,'kfold_random_num':3,'sample_random':False,'sample_random_num':-1,'header':284}
@@ -48,22 +47,6 @@ scpf_ = {
           'adjacency_cart_depth':3,'kfold_random':True,'kfold_random_num':9,'sample_random':False,'sample_random_num':-1,'header':31}
 
 
-
-
-
-sf1_ = {'svr1_kernel':'rbf','svr1_gamma':0.005,'svr1_C':13,'svr1_epsilon':0.0005,'svr1_shrinking':True,'svr1_verbose':False,'svr1_max_iter':-1,
-        'svr2_kernel':'rbf','svr2_gamma':0.007,'svr2_C':4,'svr2_epsilon':0.000001,'svr2_shrinking':True,'svr2_verbose':False,'svr2_max_iter':-1,
-          'adjacency_num':20,'num_cluster':3,'cluster_times':20,'target_lambda':-5,'targets_num':3,'is_Agg_clustering':False,'Agg_clustering_num':-1,'paper_kFold':10,'inner_kFold':10,
-          'adjacency_cart_depth':3,'kfold_random':True,'kfold_random_num':3,'sample_random':False,'sample_random_num':-1,'header':18}
-
-
-
-
-
-sf2_ = {'svr1_kernel':'rbf','svr1_gamma':0.006,'svr1_C':14,'svr1_epsilon':0.005,'svr1_shrinking':True,'svr1_verbose':False,'svr1_max_iter':-1,
-        'svr2_kernel':'rbf','svr2_gamma':0.007,'svr2_C':4,'svr2_epsilon':0.000001,'svr2_shrinking':True,'svr2_verbose':False,'svr2_max_iter':-1,
-          'adjacency_num':20,'num_cluster':2,'cluster_times':20,'target_lambda':-5,'targets_num':3,'is_Agg_clustering':False,'Agg_clustering_num':-1,'paper_kFold':10,'inner_kFold':10,
-          'adjacency_cart_depth':3,'kfold_random':True,'kfold_random_num':10,'sample_random':False,'sample_random_num':-1,'header':18}
 
 slump_ = {'svr1_kernel':'rbf','svr1_gamma':0.05,'svr1_C':70,'svr1_epsilon':0.01,'svr1_shrinking':False,'svr1_verbose':False,'svr1_max_iter':-1,
         'svr2_kernel':'rbf','svr2_gamma':0.03,'svr2_C':40,'svr2_epsilon':0.01,'svr2_shrinking':False,'svr2_verbose':False,'svr2_max_iter':-1,
@@ -95,6 +78,6 @@ rf2_ = {'my_num':20,
           'adjacency_num':10,'num_cluster':5,'num_cluster_targets':4,'cluster_times':10,'target_lambda':-5,'targets_num':8,'is_Agg_clustering':False,'Agg_clustering_num':-1,'paper_kFold':5,'inner_kFold':3,
           'adjacency_cart_depth':3,'kfold_random':True,'kfold_random_num':0,'sample_random':False,'sample_random_num':-1,'header':589,'is_feature_selection':True,'feature_selection':576,'tift':False}
 
-all_config = {'andro':andro_,'atp1d':atp1d_,'atp7d':atp7d_,'edm':edm_,'enb':enb_,'jura':jura_,'oes10':oes10_,'oes97':oes97_,'osales':osales_,'scpf':scpf_,'sf1':sf1_,'sf2':sf2_,'slump':slump_,'wq':wq_
+all_config = {'andro':andro_,'atp1d':atp1d_,'atp7d':atp7d_,'edm':edm_,'enb':enb_,'jura':jura_,'oes10':oes10_,'oes97':oes97_,'osales':osales_,'scpf':scpf_,'slump':slump_,'wq':wq_
               ,'scm1d':scm1d_,'scm20d':scm20d_,'rf1':rf1_,'rf2':rf2_}
 
